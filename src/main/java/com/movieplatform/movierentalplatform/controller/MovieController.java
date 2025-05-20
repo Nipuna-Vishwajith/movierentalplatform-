@@ -34,7 +34,7 @@ public class MovieController {
         this.reviewService = reviewService;
     }
 
-    //home
+    //homegukg
     @GetMapping("/")
     public String home(Model model, HttpSession session) {
         User user = (User) session.getAttribute("user");
